@@ -8,8 +8,12 @@ def cubes():
         num += 1
 
 
+cubes()
+
 # EXERCISE 2
 # Get first prime numbers up to 100
+
+
 def primes():
     for i in range(1,  101):
         for j in range(2, i):
@@ -18,6 +22,8 @@ def primes():
         else:
             print(i)
 
+
+primes()
 
 # EXERCISE 3
 # Take in a users input for their age, if they are younger than 18 print kids,
